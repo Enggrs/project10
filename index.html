@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand navbar-link " href="#">
+                    <i class="glyphicon glyphicon-camera"></i>
+                    <span class="text-title"><strong class="text-muted"> Rajat </strong> Blog </span></a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span><span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="index.html">Blog </a></li>
+                        <li role="presentation"><a href="assets/about/index.html">About </a></li>
+                        <li role="presentation"><a href="assets/contact/index.html">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <ul class="nav nav-pills categories">
+        <li><a href="#">Landscape </a></li>
+        <li><a href="#be">Macro </a></li>
+        <li><a href="#ft">Portraits </a></li>
+        <li><a href="#">Locations </a></li>
+        <li><a href="#">Techniques </a></li>
+    </ul>
+    <div class="container post">
+        <div class="row">
+            
+            <div class="col-md-6 col-md-offset-0 post-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eveniet iusto corrupti cumque nisi odit optio perferendis maxime officiis officia? </p>
+                <p>Curabitur cursus ac quam sit amet mattis. Donec lacinia massa id libero tincidunt, sed ultricies magna eleifend. Integer porta consectetur ipsum sed porttitor. Praesent sed convallis nisi. Mauris eget commodo sem. Sed auctor commodo quam
+                    eu semper. </p>
+                <p>Sed mollis, urna eu tempus facilisis, diam tellus aliquam tortor, et vestibulum ante quam non justo. Nullam luctus rutrum mattis. Maecenas in pharetra mi, vel mollis odio. </p>
+                <figure>
+                    <img class="img-thumbnail" src="assets/img/camera_illustration.jpg">
+                    <figcaption>Praesent sed convallis nisi </figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem quam, scelerisque vitae sem non, ornare condimentum leo. Vivamus eros tortor, tincidunt et viverra ac, gravida eu augue. Interdum et malesuada fames ac ante ipsum primis
+                    in faucibus. Praesent nibh ex, hendrerit at tellus sed, laoreet suscipit leo. </p>
+            </div>
+            <div class="col-md-6 post-title">
+                <h1>Photography in <strong>India</strong></h1>
+                <p class="author"><strong><em>Rajat Sharma</em> </strong> <span class="text-muted">Septmber 6th 2018 </span></p>
+               <div class="row">
+                   <div class="column slides" id="be">
+                           <div class="carousel slide" id="slider" data-ride="carousel">
+                               <ol class="carousel-indicators">
+                                   <li class="active" data-slide-to="0" data-target="#slider"></li>
+                                   <li data-slide-to="1" data-target="#slider"></li>
+                                   <li data-slide-to="2" data-target="#slider"></li>
+                               </ol> 
+                               <div class="carousel-inner">
+                                   <div class="item active" id="slide1">
+                                       <div class="carousel-caption">
+                                           <h3 id="abc">Rajat</h3>
+                                           <br>
+                                           <p id="ab">BE SO GOOD,THEY CAN'T IGNORE U </p>
+                                       </div>
+                                   </div>
+                                   <div class="item" id="slide2">
+                                        <div class="carousel-caption">
+                                            <h3 id="abc">Web</h3>
+                                            <br>
+                                            <p id="ab">A better plateform for development.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item" id="slide3">
+                                            <div class="carousel-caption">
+                                                <h3 id="abc">Photography</h3>
+                                                <p id="ab">Always do what makes u happy.</p>
+                                            </div>
+                                    </div>
+                               </div>
+                               <a class="left carousel-control " href="#slider" data-slide="prev" role="button">
+                                   <span class="icon-prev"></span>
+                               </a>
+                               <a class="right carousel-control " href="#slider" data-slide="next" role="button">
+                                    <span class="icon-next"></span>
+                                </a>
+                           </div>                        
+                    </div>
+                   </div>
+               </div>
+                 
+            </div>  
+            
+        </div>
+    </div>
+    <footer id="ft">
+        <h5>Photography Blog © 2016</h5></footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    $('.carousel').carousel({
+  interval: 1500
+})</script>
+</body>
+
+</html>
